@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background: rgb(238, 174, 202);
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.add {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgba(223, 179, 215, 0.959);
+  margin: 0px 20px;
+  width: 80%;
+  border: 1px white solid;
+  border: 0.5px pink solid;
+}
+.plus {
+  background-color: rgb(202, 112, 151);
+  width: 35px;
+  height: 35px;
+  border-radius: 16px;
+  border: 1px white;
+  position: absolute;
+  right: 70px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 8px;
+}
+.item {
+  background-color: rgb(221, 149, 177);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0 8px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+  border: 1px rgb(167, 109, 162) solid;
+  border-radius: 18px;
+  background-color: lavenderblush;
+  width: 180px;
+}
+.light {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item-title {
+  text-decoration: line-through;
+}
+.item:hover {
+  background-color: blueviolet;
+  transition: 1s all ease;
+}
+.add:hover {
+  background-color: rgb(221, 168, 195);
+  transition: 1s all ease;
+}
+.plus:hover {
+  transform: scale(1.2);
+}
+.cadre {
+  background-color: rgb(222, 222, 233);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.item-container {
+  border: 1px black solid;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+}
